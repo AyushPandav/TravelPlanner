@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap');
+
+.About-container{
+    font-family: 'Inter',sans-serif;
+    font-size: small;
+    align-items: center;
+    justify-content: center;
+    height: 90vh;
+}
+.abouth1{
+    font-size: 50px;
+    font-family: 'Inter',sans-serif;
+    align-items: center;
+    justify-content: center;
+    padding-top: 200px;
+    color: #1A202C; 
+}
+.aboutp{
+   font-size: 20px;
+}
+.abouttravit{
+    background-color: #3e4149;
+    height: 300px;
+    color: #ffffff;
+}
+.abouth2{
+    font-family: 'Inter',sans-serif;
+    font-size: 40px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding-top: 70px;
+    color: #ffffff; 
+}
+.abourp1{
+    font-size: 17px;
+    color: #ffffff;
+}
+.aboutdev {
+     /* Enables Flexbox */
+    align-items: center; /* Vertically center */
+    justify-content: center; /* Horizontally center */
+    background-color: #0e1119;
+    margin: 0;
+    height: 600px; /* Ensure enough height for vertical centering */
+}
+.abouth2dev{
+    font-family: 'Inter',sans-serif;
+    font-size: 40px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding-top: 70px;
+    color: #ffffff; 
+    margin: 0%;
+}
+
+.card1 {
+    background-color: rgb(31, 30, 45);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    width: 350px;
+    text-align: center;
+}
+
+.card1:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.card-image1 {
+    padding-top:30px;
+
+    width: 1;
+    height: 180px;
+    border-radius: 100%;
+}
+
+.card-content1 {
+    padding: 15px;
+}
+
+.card-title1 {
+    font-size: 1.5rem;
+    color: #ffffff;
+    margin: 0 0 10px;
+}
+
+.card-description1 {
+    font-size: 1rem;
+    color: #ffffff;
+    line-height: 1.4;
+}
+
+.Aboutcenter{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

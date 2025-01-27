@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Oswald:wght@200..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+h1{
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    font-size: 90px;
+    font-weight: bold;
+    padding-top: 30px;
+
+}
+p{
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+}
+.background {
+    background-image: url('C:\\Users\\panda\\OneDrive\\Desktop\\travelpplanner\\travelplanner\\src\\assets\\images\\background4.jpg'); /* Replace with the actual path */
+    background-size: cover; /* Ensure the image covers the entire viewport */
+    background-repeat: no-repeat; /* Prevent the image from repeating */
+    background-position: center; /* Center the image */
+    height: 93vh; /* Set height to 100% of the viewport height */
+    display: flex; /* Enable flexbox for centering content */
+    flex-direction: column; /* Stack child elements vertically */
+     justify-content: center;/* Center content vertically */
+    align-items: center; /* Center content horizontally */
+    color:#ffffff; /* Set text color for contrast */
+    text-align: center; /* Center-align text */
+    padding: 10px; /* Add some padding */
+    margin: 0; /* Remove default margin */
+    box-sizing: border-box; /* Include padding and border in element's total width/height */
+}
+h3{
+    font-family: 'Poppins', sans-serif;
+    font-size: x-large;
+    padding-left: 30px;
+    padding-top: 40px;
+    padding-bottom: 30px;
+}
+.flexkarle{
+    display: flex;
+    gap: 100px;
+}
+.cardflex {
+    display: flex;
+    gap: 20px; /* Space between cards */
+    overflow-x: auto; /* Enable horizontal scrolling */
+    padding: 10px; /* Add some padding */
+    scroll-behavior: smooth; /* Smooth scrolling effect */
+    white-space: nowrap; /* Prevent wrapping to a new line */
+    height: 250px; /* Set a fixed height to avoid shrinking */
+    align-items: flex-start; /* Align cards at the top */
+    scrollbar-width: none; /* Hide scrollbar for Firefox */
+}
+
+.cardflex::-webkit-scrollbar {
+    display: none; /* Hide scrollbar for Chrome, Edge, Safari */
+}
+
+.cardflex > .card {
+    flex-shrink: 0; /* Prevent cards from shrinking */
+}
+
+.card {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    width: 300px;
+    margin: 0; /* Remove margin so only `gap` controls spacing */
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.card-image {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+}
+
+.card-content {
+    padding: 15px;
+}
+
+.card-title {
+    font-size: 1.5rem;
+    color: #333;
+    margin: 0 0 10px;
+}
+
+.card-description {
+    font-size: 1rem;
+    color: #555;
+    line-height: 1.4;
+}
+
+  
+h4{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+    padding-top: 180px;
+}
+.Bg1top{
+    background-image: url('C:\Users\panda\OneDrive\Desktop\travelpplanner\travelplanner\src\assets\images\Background5.avif');
+    height: 500px;
+    align-items: center;
+    justify-content: center;
+    
+}
+/* Container for search bar and button */
+.search-bar-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    
+  }
+  
+  /* Styling for the search input */
+  .search-input {
+    width: 300px;
+    padding: 10px;
+    border: 2px solid #007acc;
+    border-radius: 5px;
+    font-size: 1rem;
+    outline: none;
+    transition: all 0.3s ease;
+    border-radius: 50px;
+
+  }
+  
+  .search-input:focus {
+    border-color: #005fa3;
+    box-shadow: 0 0 5px rgba(0, 92, 163, 0.5);
+  }
+  
+  /* Styling for the subscribe button */
+  .subscribe-button {
+    background-color: #007acc;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .subscribe-button:hover {
+    background-color: #005fa3;
+  }
+  
+.lastbg{
+    background-image: url('C:\Users\panda\OneDrive\Desktop\travelpplanner\travelplanner\src\assets\images\background6.avif');
+    height: 900px;
+    padding: 0;
+}
+h5{
+    font-size: 70px;
+    color: white;
+    margin: 0;
+}
+.footer-paragraph {
+   
+    font-family: 'Inter', sans-serif;
+    font-size: 1.2rem;
+    color: #ffffff;
+    margin-top: 20px;
+}
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: #262626;
+    color: white;
+    gap: 30px;
+  }

@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+body {
+  padding: 0;
+  margin: 0;
+  padding-top: 10px;
+  background-color: #F9FAFB;
+}
+
+nav {
+  font-size: 18px;
+  text-decoration: none;
+  display: flex;
+  justify-content: center; /* Center the navbar horizontally */
+  align-items: center; /* Center the navbar vertically */
+  gap: 300px;
+  font-family: 'Poppins', sans-serif;
+}
+
+ul {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  text-decoration: none;
+  text-align: center;
+}
+
+.navbar-link {
+  color: #1A202C; /* Default link color */
+  text-decoration: none;
+  transition: color 0.3s ease, transform 0.3s ease; /* Smooth color and scale changes */
+}
+
+.navbar-link:hover {
+  color: aqua; /* Hover color */
+  transform: scale(1.1); /* Slightly enlarge the link on hover */
+  text-decoration: underline; /* Optional underline */
+}
+
+/* Responsive design for mobile */
+@media (max-width: 768px) {
+  .navbar-links {
+    display: none; /* Initially hidden for smaller screens */
+    position: fixed;
+    top: 60px;
+    right: 20px;
+    background-color: #1e1e2f;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  }
+
+  .navbar-links.open {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .navbar-link {
+    margin: 10px 0;
+  }
+}
